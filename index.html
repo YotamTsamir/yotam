@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="init()">
+    <div class="title">
+        <h1 class="face" onclick="restart()">😀</h1>
+        <h1 class="lives">lives:<span class="number-of-lives"></span></h1>
+        <h3 class="timer"></h3>
+       
+    </div>
+    <div class="buttons">
+        <button onclick="easyButton()">easy</button>
+        <button onclick="mediumButton()">medium</button>
+        <button onclick="hardButton()">hard</button>
+        <button onclick="sevenBoom()">7 BOOM</button>
+        <button onclick="safeClick()">safe click!</button>
+    </div>
+   
+
+<div  class="board">
+    
+</div>
+<div class="hints">
+    <p class="hints">hints remaining!: <span class="hint-1">🌹</span> <span class="hint-2">🌹</span> <span class="hint-3">🌹</span></p>
+    <button class="hint-button" onclick="useHint()">use hint</button>
+    <button class="undo" onclick="undo()">undo!</button>
+    <button class="manual-position" onclick="positionManual()">position Mines</button>
+    <button class="manual-position" onclick="playManual()">start playing!</button>
+    
+    
+    
+</div>
+<p class="safe-click">safe clicks left: <span class="safe-clicks">3</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="util (1).js"></script>
+<script src="main.js"></script>
+</body>
+</html>

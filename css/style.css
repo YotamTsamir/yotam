@@ -1,0 +1,89 @@
+h1{
+    /* display: ; */
+    /* color: rgb(42, 40, 38); */
+}
+body{
+    background-color: #43645b;
+}
+.safe-click{
+text-align: center;
+color: antiquewhite;
+}
+.board{
+    margin: auto;
+    margin-top: 40px;
+    table-layout: fixed;
+    
+}
+.hints{
+   margin: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+.hints{
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+}
+.hint-button{
+    margin: 10px;
+}
+button{
+    width: 150px;
+    margin: auto;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:12px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 27px #2b665e;
+    display: inline-block;
+    vertical-align: top;
+}
+button:hover{
+    background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+button:active{
+    position:relative;
+	top:1px;
+}
+.title{
+    width: 100px;
+    margin: auto;
+}
+td{
+    text-align: center;
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(169, 169, 169);
+}
+.pressed{
+    background-color: rgb(87, 84, 84) !important;
+}
+.buttons{
+    width: 800px;
+    margin: auto;
+}
+td:hover{
+    
+    background-color: rgb(61, 58, 58) !important
+}
+.safe-click{
+    display: block;
+}
+.undo{
+    margin: 5px;
+}
+.manual-position{
+    margin: 5px;
+}
