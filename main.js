@@ -34,7 +34,7 @@ var gBoardOfBoards = [];
 var gCountTurns = 0;
 var gManualMines = [];
 
-
+const WIN = '😍';
 const HAPPY_FACE = '😀';
 const SAD_FACE = '😪';
 const MINE = '💣';
@@ -398,6 +398,7 @@ function checkIfWinGame() {
     }
     if (shownCells.length === gLevel.size ** 2 - gLevel.mines) {
         console.log('you win!')
+        gFace.innerText = WIN;
         clearInterval(gTime)
         gGame.isOn = false;
 
